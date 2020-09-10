@@ -69,7 +69,6 @@ function generateUnicodeCanvas(chars, options, canvas) {
     o.height = canvas.clientHeight;
   }
 
-  console.log(o.width, o.height)
   const ctx = canvas.getContext("2d");
   ctx.save();
 
